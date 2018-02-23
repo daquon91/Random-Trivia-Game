@@ -4,7 +4,7 @@
 }
 
 /* These styles are for the index html page */
-#container {
+#container-1 {
 	display: flex;
 	height: 100vh;
 	background-color: blue;
@@ -19,8 +19,83 @@
 	background-color: white;
 	align-self: center;
 	text-align: center;
-};
+}
 
 #start-menu h3 {
 	position: center;
+}
+
+/* These styles are for game.html */
+
+#container-2 {
+	display: flex;
+	height: 100vh;
+	background-color: purple;
+	justify-content: center;
+	
+}
+
+#player-name {
+	height: 150px;
+	width: 450px;
+	background-color: black;
+	position: absolute;
+	left: 20px;
+	margin: 20px;
+}
+
+#scoreboard {
+	height: 150px;
+	width: 450px;
+	background-color: red;
+	position: absolute;
+	right: 20px;
+	margin: 20px;
+}
+
+#questions {
+	height: 300px;
+	width: 450px;
+	background-color: white;
+	border: solid 2px black;
+	align-self: center;
+	margin: 10px;
+
+}
+
+#answer-1 {
+	height: 100px;
+	width: 450px;
+	background-color: blue;
+	position: absolute;
+	left: 160px;
+	bottom: 160px;
+}
+
+#answer-2 {
+	height: 100px;
+	width: 450px;
+	background-color: yellow;
+	position: absolute;
+	left: 160px;
+	bottom: 50px;
+}
+
+#answer-3 {
+	height: 100px;
+	width: 450px;
+	background-color: green;
+	position: absolute;
+	right: 160px;
+	bottom: 160px;
+}
+
+#answer-4 {
+	height: 100px;
+	width: 450px;
+	background-color: orange;
+	position: absolute;
+	right: 160px;
+	bottom: 50px;
+}
 }
