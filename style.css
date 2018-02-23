@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* These styles are for the index html page */
+#container {
+	display: flex;
+	height: 100vh;
+	background-color: blue;
+	justify-content: center;
+}
+
+#start-menu {
+	height: 450px;
+	width: 300px;
+	border: solid 2px white;
+	border-radius: 50px;
+	background-color: white;
+	align-self: center;
+}
