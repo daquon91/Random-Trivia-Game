@@ -14,9 +14,9 @@
 #start-menu {
 	height: 450px;
 	width: 300px;
-	border: solid 2px white;
+	border: solid 2px skyblue;
 	border-radius: 50px;
-	background-color: white;
+	background-color: darkblue;
 	align-self: center;
 	text-align: center;
 }
@@ -25,6 +25,14 @@
 	position: center;
 	font-family: 'Nanum Pen Script', cursive;
 	font-size: 35px;
+	color: skyblue;
+	
+}
+
+#start-menu form {
+	font-family: 'Nanum Pen Script', cursive;
+	font-size: 25px;
+	color: skyblue;
 }
 
 /* These styles are for game.html */
@@ -40,12 +48,14 @@
 #player-name {
 	height: 150px;
 	width: 450px;
-	background-color: white;
+	background-color: darkblue;
 	position: absolute;
 	left: 20px;
 	margin: 20px;
 	text-align: center;
+	border: solid skyblue 2px;
 	border-radius: 50px;
+	color: skyblue;
 	font-family: 'Nanum Pen Script', cursive;
 	font-size: 40px;
 }
@@ -53,12 +63,14 @@
 #scoreboard {
 	height: 150px;
 	width: 450px;
-	background-color: red;
+	background-color: darkblue;
 	position: absolute;
 	right: 20px;
 	margin: 20px;
 	text-align: center;
+	border: solid skyblue 2px;
 	border-radius: 50px;
+	color: skyblue;
 	font-family: 'Nanum Pen Script', cursive;
 	font-size: 40px;
 }
@@ -66,50 +78,56 @@
 #questions {
 	height: 300px;
 	width: 750px;
-	background-color: white;
+	background-color: darkblue;
 	border: solid 2px black;
 	align-self: center;
 	margin: 10px;
+	margin-bottom: 40px;
 	border-radius: 40px;
+	border: solid skyblue 2px;
 
 }
 
 #answer-1 {
 	height: 100px;
 	width: 450px;
-	background-color: blue;
+	background-color: darkblue;
 	position: absolute;
 	left: 160px;
 	bottom: 160px;
-	border-radius: 40px;
+	border-radius:  40px;
+	border: solid skyblue 2px;
 }
 
 #answer-2 {
 	height: 100px;
 	width: 450px;
-	background-color: yellow;
+	background-color: darkblue;
 	position: absolute;
 	left: 160px;
 	bottom: 50px;
-	border-radius: 40px;
+	border-radius:  40px;
+	border: solid skyblue 2px;
 }
 
 #answer-3 {
 	height: 100px;
 	width: 450px;
-	background-color: green;
+	background-color: darkblue;
 	position: absolute;
 	right: 160px;
 	bottom: 160px;
 	border-radius: 40px;
+	border: solid skyblue 2px;
 }
 
 #answer-4 {
 	height: 100px;
 	width: 450px;
-	background-color: orange;
+	background-color: darkblue;
 	position: absolute;
 	right: 160px;
 	bottom: 50px;
 	border-radius: 40px;
+	border: solid skyblue 2px;
 }
