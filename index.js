@@ -1,4 +1,21 @@
-console.log('i work');
+$(document).ready(function() {
+	
+const urlParam = window.location.search.substr(1).split("=");
+
+const Name = urlParam[1];
+
+const $playerName = $('#player-name');
+
+$playerName.append("<h4>" + Name + "</h4>");
+
+
+
+
+});
+	
+
+
+/* console.log('i work');
 
 const urlParam = window.location.search.substr(1).split("=");
 
@@ -8,13 +25,16 @@ const Name = urlParam[1];
 
 console.log(Name);
 
-let p = document.createElement("p");
+const $playerName = $('#player-name');
 
-p.appendChild(Name);
+$playerName.append(name); */
 
-const playerName = document.getElementById('player-name');
 
-playerName.appendChild(p);
+
+
+
+
+
 
 
 
